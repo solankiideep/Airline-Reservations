@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Your Airline Name">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/demo.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:100,400'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/jquery.nanoscroller/0.8.7/css/nanoscroller.min.css'>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .cd__intro {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin: 0;
+        }
+
+        nav a {
+            display: block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #fff;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .cd__main {
+            padding: 20px;
+        }
+
+        :root {
+            --about-us-background: #27ae60; /* Default background color for about us section */
+        }
+
+        .about-us {
+            text-align: center;
+            padding: 40px;
+            background-color: var(--about-us-background); /* Use the dynamic background color variable */
+            color: #fff;
+        }
+
+        .about-us h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        .about-us p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <main class="cd__main">
+        <div class="wrap" data-pos="0">
+            <section id="about" class="about-us">
+                <h1>About SkyWings Airways</h1>
+                <p>At SkyWings Airways, we are dedicated to providing exceptional air travel experiences. Our airline is committed to safety, innovation, and customer satisfaction. With a team of highly trained professionals and a fleet of modern aircraft, we ensure that your journey is comfortable and enjoyable from takeoff to landing.</p>
+                <p>As pioneers in the aviation industry, we strive to exceed your expectations. Our values of reliability, efficiency, and customer-centricity set us apart. Whether you are a frequent flyer or a first-time traveler, SkyWings Airways welcomes you on board for a seamless and memorable journey.</p>
+            </section>
+            <!-- Add other sections or content as needed -->
+        </div>
+    </main>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.nanoscroller/0.8.7/javascripts/jquery.nanoscroller.min.js'></script>
+</body>
+</html>
